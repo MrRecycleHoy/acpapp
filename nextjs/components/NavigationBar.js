@@ -38,6 +38,7 @@ const NavigationLayout = ({ children }) => {
             }}>
             {appName}
           </Typography>
+          <NavigationLink href="/register" label="Register" />
           <NavigationLink href="/page1" label="Page1" />
           <div style={{ flexGrow: 1 }} />
           <Button
